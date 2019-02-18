@@ -12,6 +12,16 @@ nunjucks.configure('views', {
   watch: true,
 });
 
+const checkAge = (req, res, next) => {
+  const {age} = req.query;
+
+  if (!age) {
+    return res.redirect('/');
+  } else {
+    return next();
+  }
+};
+
 app.get('/', (req, res) => {
   return res.render('form');
 });
@@ -25,11 +35,11 @@ app.post('/check', (req, res) => {
   }
 });
 
-app.get('/major', (req, res) => {
+app.get('/major', checkAge, (req, res) => {
   return res.render('majorpage', {age: req.query.age});
 });
 
-app.get('/minor', (req, res) => {
+app.get('/minor', checkAge, (req, res) => {
   return res.render('minorpage', {age: req.query.age});
 });
 
