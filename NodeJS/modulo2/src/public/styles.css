@@ -163,6 +163,20 @@ body {
   color: #fff;
 }
 
+.main-wrapper .content a.schedule {
+  background: #5521ce;
+  text-decoration: none;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 0;
+  color: #fff;
+}
+
 .main-wrapper .content a.logout:hover {
   background: #c15858;
 }
