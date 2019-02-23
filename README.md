@@ -4,11 +4,11 @@
 # Table of Contents:
 1. [Node.js](#NodeJS)
 
-    1.[Module 1](#Module1)
+    * [Module 1](#Module1)
 
-    2.[Module 2](#Module2)
+    * [Module 2](#Module2)
 
-    3.[Module 3](#Module3)
+    * [Module 3](#Module3)
       
 
 # NodeJS
