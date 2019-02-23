@@ -18,4 +18,19 @@ What I learned:
 * Redirecting routes
 * Password encryption
 * Sequelize ORM for PostgreSQL
+* Moment for date management
+
+## Exercise
+The exercise for module 2 consisted on adding a schedule list feature in which barber accounts could check their appointments on any day.
+
+## Third Module
+In the third module we built a marketplace application where users can list items for sale and buy items.
+
+What I learned:
+* User auth/sessions
+* JWT Auth
+* REST API
+* Mongoose ORM for MongoDB
+* Query filters
+
 
