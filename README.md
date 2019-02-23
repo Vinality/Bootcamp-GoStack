@@ -1,14 +1,21 @@
 # Bootcamp-GoStack
 6-Week long, intensive bootcamp provided by Rocketseat with the intent of learning the stack: NodeJS, React and React Native
 
+# Table of Contents:
+1. [Node.js](#NodeJS)
+  1. [Module 1](#Module 1)
+  1. [Module 2](#Module 2)
+  1. [Module 3](#Module 3)
+      
+
 # NodeJS
-## First Module
+## Module 1
 This module consists of learning basic NodeJS concepts using Express and Nunjuck to build HTTP routes and Middlewares.
 
 ### Exercise
 The exercise consisted of developing an application which receives an age value and redirects the user to a different route depending on the input value.
 
-## Second Module
+## Module 2
 This second module consists of building a appointment scheduling application for a barber shop in which users can register as both barbers or clients and schedule an appointment with a barber.
 
 What I learned:
