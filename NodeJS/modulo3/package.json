@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.14",
+    "mongoose-paginate": "^5.0.3",
+    "nodemon": "^1.18.10",
+    "require-dir": "^1.2.0"
+  }
+}
