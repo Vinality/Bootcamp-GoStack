@@ -12,6 +12,12 @@
 ## Module 1 <a name="Module1"></a>
 This module consists of learning basic NodeJS concepts using Express and Nunjuck to build HTTP routes and Middlewares.
 
+What I learned:
+* Introduction to Node.js
+* Introduction to the MVC architecture
+* Introduction to Nunjucks template language for views
+* Passing data to views
+
 ### Exercise
 The exercise consisted of developing an application which receives an age value and redirects the user to a different route depending on the input value.
 
