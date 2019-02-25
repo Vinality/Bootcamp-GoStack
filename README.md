@@ -1,7 +1,9 @@
 # Bootcamp-GoStack
 6-Week long, intensive bootcamp provided by Rocketseat with the intent of learning the stack:
 
-<strong>NodeJS, React and React Native</strong>
+<strong>NodeJS</strong>
+<strong>React</strong>
+<strong>React Native</strong>
 
 # Table of Contents:
 1. [Node.js](#NodeJS)
