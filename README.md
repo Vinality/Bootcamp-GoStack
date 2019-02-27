@@ -70,3 +70,6 @@ What I learned:
 * Props and Children
 * State and Immutability
 * Lifecycle methods  
+
+### Exercise
+The exercise for the first module consisted on building a simple Facebook-like UI with 3 components: Header, Post and the Post Header. This exercises helped on understanding how to pass data through the components.
