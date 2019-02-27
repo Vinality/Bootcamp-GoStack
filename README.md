@@ -9,11 +9,13 @@
 
 # Table of Contents:
 1. [Node.js](#NodeJS)
-    * [Module 1](#Module1)
-    * [Module 2](#Module2)
-    * [Module 3](#Module3)
+   * [Module 1](#Module1)
+   * [Module 2](#Module2)
+   * [Module 3](#Module3)
+2. [ReactJS](#ReactJS)
+   * [Module 1](#Module1React)
+ 
       
-
 # NodeJS
 ## Module 1 <a name="Module1"></a>
 This module consists of learning basic NodeJS concepts using Express and Nunjuck to build HTTP routes and Middlewares.
@@ -58,3 +60,16 @@ What I learned:
 ### Exercise 
 In this exercise we had to add a feature to the API where a vendor could create an offer on an ad, followed by the buyer accepting the offer. The ad should, then, be updated as sold and should no longer show up on the listings (since it is now marked as sold).
 
+# ReactJS <a name="ReactJS"></a>
+## Module 1 <a name="Module1React"></a>
+The first module on ReactJS served as an introduction to the framework, presenting the fundamental concepts of React.
+
+What I learned:
+* Webpack, JSX and Babel transpilation
+* Component syntax
+* Props and Children
+* State and Immutability
+* Lifecycle methods  
+
+### Exercise
+The exercise for the first module consisted on building a simple Facebook-like UI with 3 components: Header, Post and the Post Header. This exercises helped on understanding how to pass data through the components.
