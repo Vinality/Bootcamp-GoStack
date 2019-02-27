@@ -44,7 +44,7 @@ What I learned:
 ### Exercise
 The exercise for module 2 consisted on adding a schedule list feature in which barber accounts could check their appointments on any day.
 
-## Third Module <a name="Module3"></a>
+## Module 3 <a name="Module3"></a>
 In the third module we built a marketplace REST API where users can list items for sale and buy items.
 
 What I learned:
