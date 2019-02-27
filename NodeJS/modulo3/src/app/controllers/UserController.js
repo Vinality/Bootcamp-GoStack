@@ -1,6 +1,7 @@
 const User = require('../models/User');
 
 class UserController {
+  // Cria um novo User no BD caso ele ja não exista
   async store(req, res) {
     const {email} = req.body;
 
