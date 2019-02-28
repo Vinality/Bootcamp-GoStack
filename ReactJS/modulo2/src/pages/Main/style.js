@@ -18,13 +18,14 @@ export const Form = styled.form`
     height: 55px;
     padding: 0 20px;
     background: #FFF;
-    border: 0;
     font-size: 18px;
     color: #444;
     border-radius: 3px;
+    border: ${props => (props.repoError ? '2px solid #F00' : 0)};
   }
 
   button {
+    width: 80px;
     height: 55px;
     padding: 0 20px;
     margin-left: 10px;
