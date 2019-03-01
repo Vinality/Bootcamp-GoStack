@@ -141,6 +141,28 @@ class Main extends Component {
     await localStorage.setItem("@max", JSON.stringify(this.state.max));
   };
 
+  handleUpdateRepo = async (repoId) => {
+    const { repositories } = this.state;
+
+    const repository = repositories.find(repo => repo.id === repoId);
+
+    try {
+      const { data } = await api.get(`/repos/${repository.full_name}`);
+
+      data.lastCommit = moment(data.pushed_at).fromNow();
+
+      this.setState({
+        repositoryError: false,
+        repositoryInput: '',
+        repositories: repositories.map(repo => (repo.id === data.id ? data : repo)),
+      });
+
+      await localStorage.setItem('@repositories', JSON.stringify(repositories));
+    } catch (err) {
+      this.setState({ repositoryError: true });
+    }
+  }
+
   render() {
     return (
       <Container>
@@ -168,6 +190,7 @@ class Main extends Component {
           repositories={this.state.repositories}
           max={this.state.max}
           removeRepo={this.handleRemoveRepo}
+          updateRepo={this.handleUpdateRepo}
         />
       </Container>
     );

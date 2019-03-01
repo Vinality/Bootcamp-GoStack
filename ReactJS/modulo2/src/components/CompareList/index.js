@@ -2,14 +2,20 @@ import React from "react";
 import { Container, Repo } from "./style";
 import propTypes from "prop-types";
 
-const CompareList = ({ repositories, max, removeRepo }) => (
+const CompareList = ({ repositories, max, removeRepo, updateRepo }) => (
   <Container>
     {repositories.map(repository => (
       <Repo key={repository.id}>
         <header>
-          <button type="button" onClick={() => removeRepo(repository.id)}>
-            x
-          </button>
+          <div id='button-container'>
+            <button type="button" id='update' onClick={() => updateRepo(repository.id)}>
+              <i className="fa fa-retweet" />
+            </button>
+            <button type="button" id='delete' onClick={() => removeRepo(repository.id)}>
+              <i className="fa fa-trash" />
+            </button>
+          </div>
+
           <img src={repository.owner.avatar_url} alt={repository.owner.login} />
           <strong>{repository.name}</strong>
           <small>{repository.owner.login}</small>

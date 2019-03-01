@@ -23,21 +23,45 @@ export const Repo = styled.div`
     flex-direction: column;
     align-items: center;
 
-    button {
-      width: 30px;
-      height: 30px;
-      margin-left: 200px;
-      margin-bottom: 20px;
-      background: #ff6666;
-      border-radius: 3px;
-      color: #fff;
-      border: 0px;
-      font-size: 20px;
-      font-weight: bold;
-      cursor: pointer;
+    div#button-container {
+      button {
+        display:inline-block;
+        align-items: left;
+      }
 
-      &:hover {
-        background: #f00;
+      #delete {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 20px;
+        margin-left: 170px;
+        background: #ff6666;
+        border-radius: 3px;
+        color: #fff;
+        border: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+          background: #f00;
+        }
+      }
+
+      #update {
+        color: #fff;
+        background: #668cff;
+        width: 30px;
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        border: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+          background: #3366ff;
+        }
       }
     }
 
