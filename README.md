@@ -14,6 +14,7 @@
    * [Module 3](#Module3)
 2. [ReactJS](#ReactJS)
    * [Module 1](#Module1React)
+   * [Module 2](#Module2React)
  
       
 # NodeJS
@@ -73,3 +74,19 @@ What I learned:
 
 ### Exercise
 The exercise for the first module consisted on building a simple Facebook-like UI with 3 components: Header, Post and the Post Header. This exercises helped on understanding how to pass data through the components.
+
+## Module 2 <a name="Module2React"></a>
+Module 2 consisted on building an application to pull data from the Github API and display repository info through a component. 
+
+What I learned:
+* Passing data through components
+* Managing component state
+* Styled components addon
+* MomentJS for date manipulation
+* Flash Messages
+* Rendering a component conditionally
+* Local storage saving/parsing JSON
+* Font Awesome addon
+
+### Exercise
+The exercise consisted on adding two features to the application: removing/updating a repository on display.
