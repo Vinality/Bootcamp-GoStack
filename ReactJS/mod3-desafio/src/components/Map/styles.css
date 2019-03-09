@@ -1,0 +1,11 @@
+.avatar {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.marker-wrapper {
+  width: 70px;
+  height: 70px;
+  visibility: visible;
+} 
