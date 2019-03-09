@@ -18,6 +18,7 @@
    * [Module 3](#Module3React)
 3. [React Native](#ReactNative)
    * [Module 1](#Module1RN)
+   * [Module 2](#Module2RN)
  
       
 # NodeJS
@@ -117,7 +118,7 @@ What I learned:
 * React Native components (View, Text, etc)
 * Flexbox
 
-## Module 2 <a name="Module2RN></a>
+## Module 2 <a name="Module2RN"></a>
 The second module of React Native consisted on building an application to list a GitHub user's repositories and display their README
   
 What I learned:
