@@ -15,6 +15,10 @@
 2. [ReactJS](#ReactJS)
    * [Module 1](#Module1React)
    * [Module 2](#Module2React)
+   * [Module 3](#Module3React)
+3. [React Native](#ReactNative)
+   * [Module 1](#Module1RN)
+   * [Module 2](#Module2RN)
  
       
 # NodeJS
@@ -90,3 +94,42 @@ What I learned:
 
 ### Exercise
 The exercise consisted on adding two features to the application: removing/updating a repository on display.
+
+## Module 3 <a name="Module3React"></a>
+Module 3 introducted the React-Redux Saga architecture, building a simple application to gather data from the GitHub API and save favorites on the page. This was done through Sagas and Reducers.
+
+What I learned:
+* Redux interface
+* Using Reactotron as debug tool
+* Redux Reducers and Actions
+* Redux Sagas
+* Duck Patterns
+
+### Exercise
+The exercise consisted on building from scratch an application, using Redux Sagas and the MapGL, to pull data from the GitHub API and position markers for developers on the map.
+
+# React Native <a name="ReactNative"></a>
+## Module 1 <a name="Module1RN"></a>
+Module 1 of React Native introducted the environment for mobile development such as the XCode iPhone simulator and the setup of a react-native application. The application we built is a simple and static interface for a Post component.
+
+What I learned:
+* XCode simulator setup
+* react-native commands to initialize an application
+* React Native components (View, Text, etc)
+* Flexbox
+
+## Module 2 <a name="Module2RN"></a>
+The second module of React Native consisted on building an application to list a GitHub user's repositories and display their README
+  
+What I learned:
+* React Native navigation and routes
+* Using the AsyncStorage component
+* ActivityIndicator and FlatList components
+
+### Exercise
+The exercise for this module consisted on building an application for scratch to dynamically add repositories to a list and upon clicking them, displaying a list of clickable issues that link to the actual issue on the web browser.
+
+
+
+
+
