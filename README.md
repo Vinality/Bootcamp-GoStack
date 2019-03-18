@@ -64,18 +64,23 @@ What I learned:
 * Environment Variables
 * Sentry.io
 
-## Module 4 - AdonisJS Framework
+### Exercise 
+In this exercise we had to add a feature to the API where a vendor could create an offer on an ad, followed by the buyer accepting the offer. The ad should, then, be updated as sold and should no longer show up on the listings (since it is now marked as sold).
+
+## Module 4 - AdonisJS Framework <a name="Module4"></a>
 In the fourth module we learned about the Node framework AdonisJS and its functionalities to quickly setup user auth, models and controllers
 
 What I learned:
 * AdonisJS routing
 * JWT Auth
 * File Upload
-* Postgres DB inside Adonis
+* Postgres relational modelling within Adonis
 * Docker for db containing
+* Adonis Validators
+* Redis and Kue for Jobs
 
-### Exercise 
-In this exercise we had to add a feature to the API where a vendor could create an offer on an ad, followed by the buyer accepting the offer. The ad should, then, be updated as sold and should no longer show up on the listings (since it is now marked as sold).
+### Exercise
+The exercise for the fourth module consisted on building a REST API in Adonis to schedule appointments and showing them for the specific users that created them. 
 
 # ReactJS <a name="ReactJS"></a>
 ## Module 1 - Introduction <a name="Module1React"></a>
