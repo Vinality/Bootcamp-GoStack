@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 const bcrypt = require('bcryptjs');
 
-const { User } = require('../../src/app/models');
+const factory = require('../factories');
 const truncate = require('../utils/truncate');
 
 describe('User', () => {
@@ -10,9 +10,7 @@ describe('User', () => {
   });
 
   it('should encrypt user password', async () => {
-    const user = await User.create({
-      name: 'Daigo',
-      email: 'daigo@god.com',
+    const user = await factory.create('User', {
       password: '12345'
     });
 
