@@ -13,6 +13,7 @@
    * [Nunjucks](#Module2)
    * [REST API](#Module3)
    * [AdonisJS](#Module4)
+   * [Test Driven Development](#Module5)
 2. [ReactJS](#ReactJS)
    * [Introduction](#Module1React)
    * [Consuming GitHub API](#Module2React)
@@ -78,6 +79,17 @@ What I learned:
 * Docker for db containing
 * Adonis Validators
 * Redis and Kue for Jobs
+
+## Module 5 - Test Driven Development with Jest <a name="Module5"></a>
+In the fifth module we learned the TDD methodology, which consists of creating tests even before a feature is implemented, then implementing it to correctly pass the test. For this we used the Jest framework for testing.
+
+What I learned: 
+* Integration tests
+* Unit tests
+* Wiping database entries before and after a test
+* TDD methodology
+* Coverage Reports
+* Factory Design Pattern using Factory Girl for Node
 
 ### Exercise
 The exercise for the fourth module consisted on building a REST API in Adonis to schedule appointments and showing them for the specific users that created them. 
